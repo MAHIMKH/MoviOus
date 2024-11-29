@@ -1,0 +1,342 @@
+
+body{
+    background-color:rgb(0, 0, 0);
+    margin:0;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+
+}
+.logo{
+    font-size: 20px;
+    color: red;
+    margin-top: 0px;
+
+
+}
+nav ul {
+    list-style: none;
+    margin-left: 35px ;
+    padding: 0;
+    display: flex;
+    
+}
+nav li {
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-right: -101px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 15px;
+    margin-right: 20%;
+    
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 464%;
+    
+}
+.search-container {
+    width: 40%;
+   
+  }
+  .search-bar {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  .search-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .search-button:hover{
+    background-color: rgb(87, 75, 75);
+  }
+  .logout{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:black;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    background-color: rgb(236, 36, 36);
+    border: 8px solid rgb(240, 31, 31);
+    border-radius: 70px;
+  }
+  .logout:hover{
+    background-color: rgb(87, 75, 75);
+    border: 8px solid rgb(87, 75, 75);
+  }
+  .container1 img{
+    width: 100%;
+    height: 800px;
+    
+  }
+
+  .container1 h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(238, 5, 5);
+    text-align: left;
+    margin-top:300px ;
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    margin-left: 10px;
+    
+    
+  }
+  .container1 p{
+    position: absolute;
+    top:0;
+    color: white;
+    height: 50px;
+    width: 600px;
+    margin-top: 400px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    opacity: 0.9;
+    margin-left: 10px;
+    
+
+  }
+  .container1 button{
+    position:absolute ;
+    left:0;
+    margin-left: 10px;
+    margin-top: 600px;
+    padding: 7px 12px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .container1 h2{
+    position:absolute ;
+    top:0;
+    margin-left: 10px;
+    margin-top: 540px;
+    font-size: 15px;
+    color: white;
+    opacity: 0.6;
+  
+  }
+  .new{
+    text-align: center;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    
+  }
+  .anime{
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-bottom: 2px;
+  }
+  .movi-box{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+
+  }
+  .movie {
+    width: 300px;
+    background-color: #111;
+    overflow:hidden;
+    border-radius: 20px;
+   
+  }
+  .movie img {
+    width: 400px;
+    height: 200px;
+    cursor: pointer;
+    
+  }
+  .movie h2 {
+    color:white;
+    margin: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+
+
+  .suggestions-box {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+}
+
+.suggestions-box a {
+    display: block;
+    padding: 8px 10px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.suggestions-box a:hover {
+    background-color: #e90b0b;
+    opacity: 0.5;
+    color: white;
+}
+
+/*sign in*/
+
+.SignUp {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  width: 350px;
+  height: 350px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-right: -8px;
+  margin-left: 40%;
+  margin-top: 40px;
+ 
+  
+}
+.SignUp h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+}
+.sign-up-btn {
+  width: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d82a2a;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sign-up-btn:hover {
+  background-color: #ac2b32;
+}
+.SignUp h4{
+  color: #fffefe;
+  padding-top: 0%;
+  cursor: pointer;
+  font-size: 14px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.log{
+  color: #df2323;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+
+.myinfo {
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  
+}
+
+.myinfo h1 {
+  color: #ffffff; 
+  margin-bottom: 20px;
+  font-size: 24px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.myinfo p {
+  font-size: 18px;
+  margin: 5px 10px ;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.srs{
+  width: 300px;
+  margin-top: -285px;
+  margin-left: 1054px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.srs img{
+  width: 43%;
+}
+.srs h2{
+  margin-top:-2px;
+ 
+}
+.srs p{
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+
+}
+.srs p:hover{
+  color:rgb(233, 54, 48)
+  
+}
+.srs a{
+  text-decoration: none;
+  color: #102fdf;
+}
